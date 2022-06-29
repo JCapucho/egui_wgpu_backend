@@ -18,3 +18,6 @@ web = []
 egui = "0.16"
 wgpu = "0.12"
 bytemuck = "1.7"
+
+[patch.crates-io]
+wgpu = { git = "https://github.com/gfx-rs/wgpu.git", rev = "b370b990e543bd8c74c895a0f856604368806e5c" }
